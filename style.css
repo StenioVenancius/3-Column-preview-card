@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    /*Primary Colors*/
+    --Bright-Orange: hsl(31, 77%, 52%);
+    --Dark-Cyan: hsl(184, 100%, 22%);
+    --Very-Dark-Cyan: hsl(179, 100%, 13%);
+
+    /*Neutral Colors*/
+    --Transparent-White-Paragraphs: hsla(0, 0%, 100%, 0.75);
+    --Very-Light-Gray: hsl(0, 0%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+main {
+    width: 800px;
+    height: 400px;
+    display: flex;
+}
+
+/* Column */
+section {
+    padding: 40px 40px;
+}
+
+section img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+h2.title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2em;
+    color: var(--Very-Light-Gray);
+    margin-bottom: 20px;
+}
+
+p.description {
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: var(--Transparent-White-Paragraphs);
+}
+
+button.button {
+    width: 120px;
+    height: 40px;
+    margin-top: 70px;
+    border-radius: 100px;
+    border: none;
+    font-size: 0.8em;
+    background-color: var(--Very-Light-Gray);
+}
+
+button.button:hover {
+    cursor: pointer;
+    border: 2px solid var(--Very-Light-Gray);
+}
+
+/* SEDANS */ 
+section#sedans {
+    border-radius: 10px 0 0 10px;
+    background-color: var(--Bright-Orange);
+}
+
+section#sedans button.button {
+    color: var(--Bright-Orange);
+    
+}
+
+section#sedans button.button:hover {
+    color: var(--Very-Light-Gray);
+    background-color: var(--Bright-Orange);
+}
+
+/* SUVS */
+section#suvs {
+    background-color: var(--Dark-Cyan);
+}
+
+section#suvs button.button {
+    color: var(--Dark-Cyan);
+}
+
+section#suvs button.button:hover {
+    color: var(--Very-Light-Gray);
+    background-color: var(--Dark-Cyan);
+}
+
+/* LUXURY */
+section#luxury {
+    border-radius: 0 10px 10px 0;
+    background-color: var(--Very-Dark-Cyan);
+}
+
+section#luxury button.button {
+    color: var(--Very-Dark-Cyan);
+}
+
+section#luxury button.button:hover {
+    color: var(--Very-Light-Gray);
+    background-color: var(--Very-Dark-Cyan);
+}
+
+/* Responsividade */
