@@ -23,6 +23,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
 }
@@ -117,4 +118,61 @@ section#luxury button.button:hover {
     background-color: var(--Very-Dark-Cyan);
 }
 
+/* Created */
+div#creator {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+div#creator p {
+    font-size: 0.85em;
+}
+
+div#creator a {
+    color: var(--Dark-Cyan);
+    text-decoration: none;
+}
+
+div#creator a:visited {
+    color: var(--Very-Dark-Cyan);
+}
+
 /* Responsividade */
+/* Mobile - Width: 375px*/
+@media (min-width: 375px) and (max-width: 414px) {
+    body {
+        height: 80vh;
+    }
+
+    main {
+        width: 300px;
+        flex-direction: column;
+    }
+
+    p.description {
+        font-size: 0.95em;
+        line-height: 2.2em;
+    }
+
+    button.button {
+        width: 140px;
+        height: 50px;
+        font-size: 1em;
+        margin-top: 20px;
+    }
+
+    section#sedans {
+        border-radius: 10px 10px 0 0;
+    }
+
+    section#luxury {
+        border-radius: 0 0 10px 10px;
+    }
+
+    /* Created */
+    div#creator {
+       display: none;
+    }
+
+}
