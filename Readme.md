@@ -96,13 +96,13 @@ Sinta-se avontade para enviar seu feedback!
 ------------------------------------------------------------------------------------------------------------------------------------------------
 ## EN
 ------------------------------------------------------------------------------------------------------------------------------------------------
-
 # Frontend Mentor - 3 Column Preview Card Component
 Hello! <br>
 Welcome to my solution to the 3 Column Preview Card Component challenge proposed by Frontend Mentor (https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub). This Readme will serve as your guide to understanding this project. It will be based on the template provided by the Frontend Mentor platform itself.
 <br>
 Without further ado, I want to thank you for taking the time to visit my project!
 All feedback is welcome!!
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Table of contents
